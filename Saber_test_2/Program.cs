@@ -13,7 +13,7 @@ namespace Saber_test_2
             string str;
             Console.WriteLine("Напишите страку");
             str = Console.ReadLine();
-            StringBuilder(str, out string res);
+            RemoveDups(str, out string res);
             Console.WriteLine("result: " + res);
             Console.ReadLine();
 
