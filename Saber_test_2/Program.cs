@@ -18,7 +18,7 @@ namespace Saber_test_2
             Console.ReadLine();
 
         }
-        static void StringBuilder(string str, out string result)
+        static void RemoveDups(string str, out string result)
         {
             char[] chars = str.ToCharArray();
 
